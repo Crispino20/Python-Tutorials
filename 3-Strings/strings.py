@@ -30,26 +30,3 @@ print(course[:])  # Python Programming
 # Get every second character in the string
 print(course[::2])  # Pto rgamn
 print(course[1::3])  # yoPgmn
-
-length = 10
-width = 30
-perimeter = 2 * (length + width)
-print("The perimeter of the rectangle is:", perimeter)
-
-my_course = "Programming"
-print(my_course[0:3])
-print(my_course[3:7])
-print(my_course[8:11])
-
-
-# Step slicing
-alphabet = "abcdefghi"
-print('Every second letter: ', alphabet[::2])
-print('String in reverse: ', alphabet[::-1])
-
-# Len
-text = "Hello World"
-print(len(text[0:5]))  # 5
-print(text[0:5])  # Hello
-print(len(text[6:11]))  # 11
-print(text[6:11])  # World
