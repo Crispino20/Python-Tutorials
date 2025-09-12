@@ -30,3 +30,13 @@ print(course[:])  # Python Programming
 # Get every second character in the string
 print(course[::2])  # Pto rgamn
 print(course[1::3])  # yoPgmn
+
+
+this_text = "Python \"Programming\""
+print(this_text)
+
+document_path = "Document\\Python"
+print(document_path)
+
+new_line = "Python \nProgramming"
+print(new_line)
