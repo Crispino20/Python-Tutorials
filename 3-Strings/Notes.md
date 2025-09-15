@@ -15,7 +15,20 @@
     - [::2] - The third index in this format represents the step interval. In this example it returns the first character in the index and every second character after that. 
   - Obtaining first 3 characters in the string: `print(course[0:3])` - This will output "Phy"
 
-## Formatted Strings
+## Formatted strings
 - Formatted strings can be used in place of regular strings `full = f'{first_name} {last_name}'`
+
+## String methods 
+- string object methods can be accessed using the `"."` notation
+- .upper() converts string text to uppercase 
+- .lower() converts string text to lowercase 
+- .title() capitalises the starting letter of each word e.g `Python Programming`
+- .strip() is used to trim any white space at the beginning and end of a string
+- .lstrip() removes the white space at the beginning of a string 
+- .rstrip() removes the white space at the end of a string 
+- .find() To get the **index** of a character or a sequence of characters in the string e.g `print(course.find("Pyt"))`
+- .replace() returns a new string with specified character(s) replaced by another; it does not modify the original string in place (Bear in mind that this is case sensitive)
+
+
 
 
