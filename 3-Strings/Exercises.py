@@ -42,3 +42,38 @@ alphabet = 'abcdefghij'
 print("Exercise 4:")
 print('Printing every second letter:', alphabet[::2])  # acegi
 print('Printing the string in reverse:', alphabet[::-1])  # jihgfedcba
+
+# Exercise 5: More step slicing
+# word = "ABCDEFGHIJ"
+# Print it in reverse.
+# Print every 2nd character ("ACEGIJ").
+# Print "FED" (using slicing, not hardcoding).
+
+word = "ABCDEFGHIJ"
+print('Exercise 5:')
+# Reverse
+print(word[::-1])
+# Every second character
+print(word[0::2])
+# FED
+print(word[3:6][::-1])
+
+
+# Exercise 6 - Advanced step slicing
+# use slicing to only reverse one word at a time? For example:
+# "nohtyP Basics"
+# "Python scisaB"
+
+sentence = "Python Basics"
+print('Exercise 6:')
+print(f'{sentence[:6][::-1]} {sentence[7:]}')  # "nohtyP Basics"
+print(f'{sentence[:6]} {sentence[7:][::-1]}')  # "Python scisaB"
+
+
+# Exercise 7: Formatted String
+# Using Formatted string, create variables for storing your name and age and print the output
+name = 'Crispin'
+age = 34
+my_details = f'Hi, my name is {name} and I am {age} years old! I\'ll soon be turning {age + 1}!'
+print('Exercise 7:')
+print(my_details)
