@@ -28,6 +28,8 @@
 - **.rstrip()** removes the white space at the end of a string 
 - **.find()** To get the **index** of a character or a sequence of characters in the string e.g `print(course.find("Pyt"))`
 - **.replace()** returns a new string with specified character(s) replaced by another; it does not modify the original string in place (Bear in mind that this is case sensitive)
+- **in** finds the existence of a character or a string of characters in your expression and returns a boolean value e.g `"pro" in course`
+- **not** Used to check if the string does not contain a character or string of characters in an  expression and returns a boolean value e.g `"pro" not in course`
 
 
 
